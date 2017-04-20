@@ -1,0 +1,154 @@
+@font-face {
+       font-family: 'Amble-Light';
+       src = url("../../fonts/Amble-Light.ttf");
+}
+
+
+body{
+	font-family: Amble-Light, Arial, sans-serif;;
+}
+.content{
+	text-align: center;
+	margin-left: 3cm;
+	margin-top: 5cm;
+}
+
+.anverso{
+	width: 10cm;
+	height: 6cm;
+	border: dashed 1px #000;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.anverso .logo{
+	float: right;
+	margin-top: 0.2cm;
+	width: 3.5cm;
+	margin-left: 235px;
+	/*border-bottom: 2px solid #60ad45;*/
+}
+
+.anverso .logo img{
+	width: 3.2cm;
+	margin: 5px;
+}
+
+.anverso .franja{
+	height: 1.5cm;
+	margin-top: 5px;
+	background-color: #60ad45;
+	width: 10cm;
+}
+
+.franja h2{
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.franja .programa{
+	color: #fff;
+	position: absolute;
+	width: 230px;
+	height: 20px;
+	top: 35px;
+	font-size: 12px;
+	margin-left: 140px;
+	text-align: left;
+}
+
+.anverso .nombre{
+	font-size: 13px;
+	text-align: left;
+	color: #666;
+	font-weight: 600;
+	width: 235px;
+	margin-left: 135px;
+	margin-top: 15px;
+	border-bottom: 2px solid #60ad45;
+}
+
+.anverso .foto{
+	width: 2.5cm;
+	height: 3.5cm;
+	background-color: #60ad45;
+	position: absolute;
+	top:1.5cm;
+	margin-left: 0.8cm;
+	z-index: 100;
+	border: 1px solid #3b683c;
+}
+
+.anverso .foto .foto-user{
+	width: 2cm;
+	height: 3cm;
+	margin-top: 10px;
+}
+
+.anverso .facultad{
+	font-size: 8px;
+	width: 150px;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 130px;
+	color: #666;
+}
+.codeqr{
+	position: absolute;
+	top: 395px;
+	left: 420px;
+	z-index: -100;
+}
+.anverso .cromatica{
+	width: 10cm;
+	margin-top: 1.2cm;
+}
+
+.reverso{
+	display: inline-block;
+	vertical-align: top;
+	width: 10cm;
+	height: 6cm;
+	border: dashed 1px #000;
+}
+
+.reverso .texto{
+	font-size: 11px;
+	color: #666;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	padding: 0 1px;
+}
+
+.reverso .firma{
+	width: 8cm;
+	height: 3cm;
+	margin: 0 auto;
+	border: solid 1px #60ad45;
+}
+.firma .img-firma{
+	margin-top: 25px;
+	width: 5cm;
+}
+
+.firma .txt-firma{
+	color: #666;
+	display: block;
+	font-size: 9px;
+}
+
+.firma .txt-autoridad{
+	color: #666;
+	font-size: 7px;
+}
+.reverso .estudiante{
+	margin-top: 5px;
+	font-size: 11px;
+	color: #666;
+}
+
+.reverso .cromatica{
+	width: 10cm;
+	margin-top: 0.35cm;
+}
